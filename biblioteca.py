@@ -18,3 +18,15 @@ def contavogais(texto):
 def estoque(produto, quantidade, valorUnitario):
     valorTotal = quantidade*valorUnitario
     print(valorTotal)
+def numero(num):
+    if num!= 0:
+        if num > 0:
+            return "P"
+        else:
+            return "N"
+    else:
+        return "Z"
+
+def soma(a, b):
+    result= a + b
+    print(result)
