@@ -8,10 +8,13 @@ def piramide(num):
         for i in range(0,x):
             print(x ,end =" ")
         print()
-def contavogais(texto)
+def contavogais(texto):
     cont = 0
     vogais = "aeiouAEIOU"
     for x in range(len(texto)):
         if texto[x] in vogais:
             cont = cont + 1
     print(cont)
+def estoque(produto, quantidade, valorUnitario):
+    valorTotal = quantidade*valorUnitario
+    print(valorTotal)
