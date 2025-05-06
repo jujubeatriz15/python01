@@ -30,3 +30,7 @@ def numero(num):
 def soma(a, b):
     result= a + b
     print(result)
+def somacom_maisnumeros(*a):
+    for x in range(len(a)):
+        soma = soma+[x]
+        print(soma)
